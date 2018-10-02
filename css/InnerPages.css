@@ -1,0 +1,336 @@
+﻿body {
+  background-color: #eaf2fb;
+}
+
+.inputBox {
+  display: inline;
+  /* width: 100%; */
+  height: 28px;
+  padding: 3px 6px 4px;
+  font-size: inherit;
+  line-height: inherit;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+  .inputBox:focus, .inputBoxLrg:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.75), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6);
+  }
+
+.inputBoxLrg {
+  display: inline;
+  /* width: 100%; */
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+.navbar {
+  margin-bottom: 10px;
+}
+/*Override color for 'invisible' buttons on Claim Update page*/
+
+#btnDIO, #btnQRF{
+  color: #eaf2fb !important;
+  background-color: #eaf2fb !important;
+}
+
+/*topnavigation menu buttons*/
+div .nav > li {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.control-label {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.button1 {
+  margin-left: 3px;
+}
+
+.txtTimeLeft {
+  margin-top: 10px;
+}
+
+.navHeader {
+  padding-top: 20px;
+}
+
+.navbar-text {
+  display: none;
+}
+
+.label-primary {
+  font-size: 1.1em;
+}
+
+.pageTitle {
+  font-size: 1.1em;
+}
+
+.shopLabel {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.table table-bordered table-condensed {
+  font-size: 0.87em;
+}
+
+.bodyTable td, th {
+  padding: 3px;
+}
+
+.bodyTable2 td, th {
+  padding: 2px;
+}
+
+.bodyTable3 td, th {
+  padding: 8px;
+}
+
+.searchRow div, .resultsRow div {
+  margin-top: 5px;
+}
+
+.searchBar {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.btnSearch, .resultsRow {
+  font-weight: bold;
+  display: table;
+  margin: 0 auto 10px auto;
+}
+
+.noResultLabel {
+  color: #d9534f;
+  font-size: 1.1em;
+}
+
+.form-control {
+  height: 28px;
+  padding: 3px 6px 4px;
+}
+
+.detailLabel {
+  display: block;
+  font-weight: bold;
+}
+
+.UCInav {
+  min-height: 10px;
+  background-color: rgba(214,214,214,1);
+}
+
+.UCInav a {
+  color: rgb(49,40,40);
+}
+
+#PanelSubmit {
+  position: relative;
+  top: 15px;
+  margin-bottom: 20px;
+}
+
+.sideBarLabel {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.details {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.chkBox input, .chkBoxList label, .chkBoxList input {
+  margin-right: 5px;
+}
+
+.chkBoxLeft input {
+  margin-left: 8px;
+}
+
+.report {
+  font-size: 0.8em;
+}
+
+.main {
+  padding: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  position: relative;
+  top: 320px;
+  overflow-x: hidden;
+  margin-left: 300px;
+  max-width: 800px;
+}
+
+.searchModule {
+  margin-top: 5px;
+  position: relative;
+  z-index: 1200;
+}
+
+/*.top {
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+  min-width: 100%;
+}*/
+
+.panel-heading [data-toggle="collapse"]:after {
+  font-family: 'Glyphicons Halflings';
+  content: "\e072"; /* "play" icon */
+  float: right;
+  color: #F58723;
+  font-size: 18px;
+  line-height: 22px;
+  /* rotate "play" icon from > (right arrow) to down arrow */
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+  /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #454444;
+}
+
+.resultsHeader {
+  background-color: blue;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 1.1px;
+}
+
+/* Sidebar navigation */
+
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+
+  .nav-sidebar > li {
+    padding-bottom: 5px;
+  }
+
+    .nav-sidebar > li > input {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
+  .nav-sidebar > .active > input,
+  .nav-sidebar > .active > input:hover,
+  .nav-sidebar > .active > input:focus {
+    color: #fff;
+    background-color: #428bca;
+  }
+
+/*Media Queries*/
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 320px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    /*background-color: #f5f5f5;
+    border-right: 1px solid #eee;*/
+    margin-left: 15px;
+  }
+}
+
+
+@media (max-width:768px) {
+  #mobileNavbar li, #updateNavbar li {
+    display: block;
+    min-width: 100%;
+  }
+
+  .searchBar li {
+    min-width: 100%;
+  }
+
+  .resetBtn, #etl {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .navbar-text {
+    display: inline-block;
+  }
+
+  #RegPanelPlusMinusPanel {
+    display: none;
+  }
+
+  .details {
+    width: 90%;
+  }
+}
+/*05-29-2018 added styling for new quick video form*/
+#btnSubmitQuickVideo, #hlQuickVideo {
+    margin-top: 15px;
+    margin-bottom: 15px;    
+}
+
+#rbVINdecode,
+#rbAssistedMode,
+#rbPassengerCar,
+#rbTruckSUV,
+#rbAutoClaimType,
+#rbPropertyClaimType,
+#sameAsCheck {
+    margin: 5px;
+    font-size: 1.0em;
+    font-weight: 300;
+}
+
+.label-quick {
+  font-size: 1.0em;
+  font-weight: 300;
+  margin: 5px;
+}
+.label-quick-header {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 5px;
+}
